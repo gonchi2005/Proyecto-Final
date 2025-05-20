@@ -1,0 +1,158 @@
+/*HEADER*/
+.menu-principal {
+  display: grid;
+}
+
+/*MAIN*/
+.grid-contenido {
+  background-color: #EBEBD3;
+  display: grid;
+  grid-template-areas: "g1 g1" "g2 g3";
+}
+
+.g1 {
+  grid-area: g1;
+}
+
+.carrusel {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+
+.carrusel img {
+  width: 0%;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.9;
+  transition: 0.5s ease;
+}
+
+.carrusel img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 3;
+  filter: brightness(120%);
+}
+
+.g2 {
+  grid-area: g2;
+}
+
+.instagram h2 {
+  font-size: 25px;
+  color: #4C5B5C;
+  text-align: center;
+}
+
+.instagram button a {
+  font-size: 35px;
+  text-decoration: none;
+  color: #4C5B5C;
+}
+
+.g3 {
+  grid-area: g3;
+}
+
+.cont-instagram {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton-instagram {
+  width: 160px;
+  height: 60px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: #4C5B5C;
+  background-color: #EBEBD3;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 15px 20px rgba(240, 235, 216, 0.5);
+  transition: all 0, 3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.boton-instagram:hover {
+  background-color: #4C5B5C;
+  box-shadow: 0px 15px 20px rgba(240, 235, 216, 0.5);
+  color: #4C5B5C;
+  transform: translateY(-7px);
+}
+
+.boton-instagram a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/*SECTION*/
+.grid-contenido2 {
+  background-color: #D8CFAF;
+  display: grid;
+  grid-template-areas: "a1 a1" "a2 a3" "a4 a5";
+  gap: 10px;
+}
+
+.img {
+  width: 350px;
+  height: 300px;
+}
+
+.a1 {
+  text-align: center;
+  grid-area: a1;
+  font-size: 25px;
+  color: #4C5B5C;
+}
+
+.a2 {
+  grid-area: a2;
+}
+
+.a3 {
+  grid-area: a3;
+}
+
+.a4 {
+  grid-area: a4;
+}
+
+.a5 {
+  grid-area: a5;
+}
+
+/*FOOTER*/
+.grid-pie {
+  background-color: #EBEBD3;
+  display: grid;
+  grid-template-areas: "g1 g2";
+}
+
+.grid-pie h2 {
+  font-size: 40px;
+  color: #4C5B5C;
+  text-align: center;
+  display: grid;
+}
+
+.g1 {
+  grid-area: g1;
+}
+
+.g2 {
+  grid-area: g2;
+}
+
+.pie-final p {
+  font-size: 25px;
+  color: #4C5B5C;
+  text-align: start;
+}
+
+/*# sourceMappingURL=index.css.map */

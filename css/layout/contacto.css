@@ -1,0 +1,121 @@
+/*CONTACTO*/
+/*HEADER*/
+.menu-principal {
+  display: grid;
+}
+
+.cont-contacto {
+  background-image: url(../assets/espejo-asimetrico-para-salon-color-marron.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-contacto h1 {
+  font-size: 100px;
+  color: #323031;
+}
+
+.cont-formulario {
+  background-color: #F0EBD8;
+}
+
+/*MAIN*/
+.contenido-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #D8CFAF;
+}
+
+.navbar {
+  background-color: #EBEBD3;
+  padding: 50px 60px;
+  border-radius: 10px;
+}
+
+.cont-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cont-formulario label {
+  font-size: 25px;
+  color: #4C5B5C;
+  text-align: center;
+}
+
+.cont-formulario input[type=text], input[type=email], textarea {
+  padding: 10px;
+  border: 3px solid #EBEBD3;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.cont-formulario textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.cont-formulario input[type=submit] {
+  background-color: #4C5B5C;
+  border: none;
+  padding: 15px 10px;
+  font-size: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*FOOTER*/
+.pie-contacto {
+  background-color: #EBEBD3;
+  display: flex;
+  padding: 50px 25px;
+}
+
+.contenido-pie {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: row;
+  max-width: 100%;
+  margin: 15px;
+}
+
+.contenido-pie ul {
+  list-style: none;
+  display: flex;
+  gap: 800px;
+}
+
+.contenido-pie li {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenido-pie h2 {
+  font-size: 50px;
+  color: #4C5B5C;
+}
+
+.contenido-pie a {
+  color: #4C5B5C;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.contenido-pie a:hover {
+  color: #f9c80e;
+}
+
+.contenido-pie p {
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=contacto.css.map */
