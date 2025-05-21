@@ -2,6 +2,13 @@
 .menu-principal {
     display: grid;
   }
+  .nav-link {
+    color: #4C5B5C;
+    transition: transform 0.2s ease-in-out;
+  }
+  .nav-link:hover {
+    transform: scale(1.1);
+  }
     /*MAIN*/
     .grid-contenido {
         background-color: #EBEBD3 ;
@@ -132,6 +139,11 @@
     color: #4C5B5C;
     text-align: center;
     display: grid;
+    transition: transform 0.2s ease;
+  }
+  .grid-pie h2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
   }
   .g1 {
     grid-area: g1;

@@ -4,6 +4,15 @@
   display: grid;
 }
 
+.nav-link {
+  color: #4C5B5C;
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
 /*MAIN*/
 .grid-contenido {
   background-color: #EBEBD3;
@@ -150,6 +159,12 @@
   color: #4C5B5C;
   text-align: center;
   display: grid;
+  transition: transform 0.2s ease;
+}
+
+.grid-pie h2:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .g1 {
@@ -170,6 +185,15 @@
 /*HEADER*/
 .menu-principal {
   display: grid;
+}
+
+.nav-link {
+  color: #4C5B5C;
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
 }
 
 .cont-contacto {
@@ -270,6 +294,12 @@
 .contenido-pie h2 {
   font-size: 50px;
   color: #4C5B5C;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contenido-pie h2:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .contenido-pie a {
@@ -284,11 +314,27 @@
 
 .contenido-pie p {
   font-size: 25px;
+  transition: transform 0.5s ease;
+}
+
+.contenido-pie p:hover {
+  transform: scale(1.2s);
+  color: #f9c80e;
+  cursor: pointer;
 }
 
 /*HEADER*/
 .menu-principal {
   display: grid;
+}
+
+.nav-link {
+  color: #4C5B5C;
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
 }
 
 .cont-contacto {
@@ -391,6 +437,12 @@
 .contenido-pie h2 {
   font-size: 50px;
   color: #4C5B5C;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contenido-pie h2:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .contenido-pie a {
@@ -405,6 +457,13 @@
 
 .contenido-pie p {
   font-size: 25px;
+  transition: transform 0.5s ease;
+}
+
+.contenido-pie p:hover {
+  transform: scale(1.2s);
+  color: #f9c80e;
+  cursor: pointer;
 }
 
 /*TABLET*/
@@ -412,6 +471,13 @@
   /*HEADER*/
   .menu-principal {
     display: grid;
+  }
+  .nav-link {
+    color: #4C5B5C;
+    transition: transform 0.2s ease-in-out;
+  }
+  .nav-link:hover {
+    transform: scale(1.1);
   }
   /*MAIN*/
   .grid-contenido {

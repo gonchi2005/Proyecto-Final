@@ -4,6 +4,13 @@
 .menu-principal {
     display: grid;
   }
+  .nav-link {
+    color: #4C5B5C;
+    transition: transform 0.2s ease-in-out;
+  }
+  .nav-link:hover {
+    transform: scale(1.1);
+  }
   .cont-contacto {
     background-image: url(../assets/espejo-asimetrico-para-salon-color-marron.jpg) ;
     height: 80vh;
@@ -88,6 +95,11 @@
   .contenido-pie h2 {
     font-size: 50px;
     color: #4C5B5C;
+    transition: transform 0.2s ease-in-out;
+  }
+  .contenido-pie h2:hover{
+    transform: scale(1.2);
+    cursor: pointer;
   }
   .contenido-pie a {
     color: #4C5B5C;
@@ -100,4 +112,11 @@
   }
   .contenido-pie p {
     font-size: 25px;
+    transition: transform 0.5s ease; 
   }
+  .contenido-pie p:hover {
+    transform: scale(1.2s);
+    color: #f9c80e;
+    cursor: pointer;
+  }
+  
