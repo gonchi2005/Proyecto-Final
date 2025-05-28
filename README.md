@@ -1,4 +1,4 @@
-## Descirpcion
+## Descripcion
 
 Este es un proyecto en cual representa una pagina para una empresa de espejos. Los usuarios pueden acceder a quienes somos, contacto, productos y al home. Podran ver un catalogo de los productos en ventas.
 
